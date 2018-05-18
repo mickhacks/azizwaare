@@ -8,6 +8,26 @@
    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
    <meta charset="utf-8" />
    <meta name="viewport" content="width=device-width, initial-scale=1" />
+   <script type="text/javascript">
+                var msg  = document.title ="Azizware";
+                var speed = 150;
+                var endChar = " ";
+                var pos = 0;
+                
+                function moveTitle()
+                {
+                     var ml = msg.length;
+                        
+                    title = msg.substr(pos,ml) + endChar + msg.substr(0,pos);
+                  document.title = title;
+                    
+                  pos++;
+                  if (pos > ml) pos=0;
+                  window.setTimeout("moveTitle()",speed);
+                }
+            
+                moveTitle();
+            </script>
    <link rel="stylesheet" href="assets/css/main.css" />
    <link rel='stylesheet' href='assets/css/bootstrap.min.css'>
    <link rel='stylesheet' href='assets/css/vendor.css'>
@@ -44,9 +64,9 @@
                <h2><font size="2">Invite-only software</font></h2>
                <nav>
                   <ul>
-                     <li><a href="https://github.com/ORI00" class="fa fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
-                     <li><a href="https://github.com/ORI00" class="icon fa-spin fa-steam" target="_blank"><span class="label">Steam</span></a></li>
-                     <li><a href="https://github.com/ORI00" class="fa fa-skype" target="_blank"><span class="label">Skype</span></a></li>
+                     <li><a href="www.saintware.tk" class="fa fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
+                     <li><a href="www.saintware.tk" class="icon fa-spin fa-steam" target="_blank"><span class="label">Steam</span></a></li>
+                     <li><a href="www.saintware.tk" class="fa fa-skype" target="_blank"><span class="label">Skype</span></a></li>
                   </ul>
                </nav>
             </header>
